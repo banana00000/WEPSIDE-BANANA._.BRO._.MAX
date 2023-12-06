@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 150;
+    padding: 150;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+    
+a {
+    text-align: center;
+    color: firebrick;
+    box-shadow: inset;
+}
+    
+input {
+    color: firebrick ;
+    background-color: rgb(14, 14, 14);
+}
+    
+body {background-color: white}
+    
+footer {font-family: 'Times New Roman', Times, serif;}
+    
+header {font-family: 'Times New Roman', Times, serif;}
+    
+footer {
+    background-color: rgb(14, 14, 14);
+    padding: 5%;
+    text-align: center;
+    font-size: 175%;
+    color: firebrick;
+}
+    
+    
+header {
+    background-color: black;
+    padding: 5%;
+    text-align: center;
+    font-size: 250%;
+    color: firebrick;
+}
+
+label:hover{
+    background-color: yellow;
+}
+    
+.div1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: firebrick;
+    width: 2.5cm;
+    height: 1cm;
+    background-color: black;
+    transition: width 1s, height 1s, transform 1s, transition 0.7s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+    font-size: 95%;
+}
+    
+.div1:hover{
+    background-color: yellow;
+    width: 3cm;
+    height: 1.2cm;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transition: transition 0.7s, transform 1s, width 1s, height 1s;
+    box-shadow: black;
+    scroll-behavior: smooth;
+}
